@@ -1,0 +1,27 @@
+//program to return current class instance using this keyword
+
+class Test
+{
+  Test show()
+  {
+    return this;
+  }
+  void message()
+  {
+    System.out.println("This keyword is successfully invoked");
+  }
+}
+class G39
+{
+  public static void main(String arghs[])
+  {
+    new Test ().show().message()
+  }
+}
+
+
+----------------
+output
+----------------
+This keyword is successfully invoked
+____________________________________
