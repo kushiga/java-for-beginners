@@ -1,0 +1,33 @@
+/*  Author: Indian-Hacker
+    Location: India
+    Date: 07/10/2020
+*/    
+
+//program to perform counter using static v ariable in java
+
+class counter
+{
+  static int count 0;
+  count()
+  {
+    count++;
+    System.out.println(count);
+  }
+}
+class G28
+{
+  public static void main (String args[])
+  {
+    counter obj1 = new counter();
+    counter obj2 = new counter;
+    counter obj3 = new counter;
+  }
+}
+
+-------------
+OUTPUT      
+-------------
+ 1         
+ 2         
+ 3         
+-------------
